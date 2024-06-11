@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="bg-green-900 h-20 sm:bg-red-950 lg:bg-slate-400">
+      <ul class="flex py-7 px-8 space-x-11">
+        <li
+          class="text-white cursor-pointer font-mono text-lg subpixel-antialiased font-extralight hover:font-bold"
+        >
+          Home
+        </li>
+        <li
+          class="text-white cursor-pointer font-mono text-lg subpixel-antialiased font-extralight hover:font-bold"
+        >
+          About
+        </li>
+        <li
+          class="text-white cursor-pointer font-mono text-lg subpixel-antialiased font-extralight hover:font-bold"
+        >
+          Service
+        </li>
+        <li
+          class="text-white cursor-pointer font-mono text-lg subpixel-antialiased font-extralight hover:font-bold"
+        >
+          Contact
+        </li>
+
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="search"
+          class="min-w-64 h-12 -my-4 rounded-lg border-red-950 hover:scale-110"
+        />
+        <button
+          type="button"
+          class="text-white bg-purple-900 h-10 w-20 mx-16 -my-3 rounded-md hover:bg-green-950 hover:scale-110"
+        >
+          Log In
+        </button>
+      </ul>
+    </nav>
+
+    <!-- ------------------------- -->
+  </body>
+</html>
